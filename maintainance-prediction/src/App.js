@@ -1,11 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+function LandingPage(){
+  return (
+    <div className='image'>
+      <h1 className='textOnImage'>Hello</h1>
+    </div>
+  );
+}
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+    <LandingPage />
+    </>
   );
 }
 
