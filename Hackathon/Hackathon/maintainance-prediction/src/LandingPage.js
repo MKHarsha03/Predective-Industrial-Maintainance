@@ -4,7 +4,7 @@ import './App.css';
 function Landing(){
   const navigate=useNavigate();
   const handleGetStarted=()=>{
-    navigate('/addDevice');
+    navigate('/dashboard');
   };
   return (
     <>
